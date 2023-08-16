@@ -25,7 +25,3 @@ jobs:
   security-iac:
     uses: igordevopslabs/custom-workflows-actions/.github/workflows/trivy-iac-scan.yml@main
     secrets: inherit
-
-  container-scan:
-    uses: igordevopslabs/custom-workflows-actions/.github/workflows/container-scan-with-cache.yml@main
-    secrets: inherit
