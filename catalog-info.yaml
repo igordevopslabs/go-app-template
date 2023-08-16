@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: template-go-app
+  description: An example of go application.
+spec:
+  type: app
+  owner: igordevopslabs
+  lifecycle: experimental
